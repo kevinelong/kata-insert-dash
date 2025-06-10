@@ -3,7 +3,8 @@ package org.example;
 import java.util.ArrayList;
 
 public class Main {
-
+//    Write a function that takes an integer num (num >= 0),
+//    and inserts dashes ('-') between each two odd digits in num.
     public static String insertDash(int num) {
         // Your code here...
         String s = String.format("%d", num);
